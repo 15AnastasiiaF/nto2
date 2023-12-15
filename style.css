@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+body{margin: 15px; background-image: url(foto/2.png); background-repeat: repeat-y;}
+
+h1{font-family: 'Nunito', sans-serif; text-align: center; font-size: 50px; margin-bottom: 20px;}
+
+.img{border-radius: 50%;}
+
+button{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+a{text-decoration: none; color: white;}
+
+p{font-family: 'Nunito', sans-serif; margin-bottom: 20px;}
+
+.text{text-align: center;}
+
+.imgg {
+    margin: 10px auto 50px;
+    margin-top: 40px;
+    display: block;
+}
+
+.g{margin-bottom: 0;}
+
+h2{text-align: center; font-family: 'Nunito', sans-serif; margin: 20px; margin-top: 60px;}
+
+.star{font-size: 20px; text-align: center; margin-top: 30px;}
+
+.paragraf{margin: 40px;}
+
+.iimg{border-radius: 25px;}
+
+.small{font-size: 18px;}
+
+.ramka{background-color: rgba(255, 255, 255, 0.724); border-radius: 20px;}
+.ramka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{text-align: center;}
+
+.ramk{background-color: rgba(255, 255, 255, 0.724); border-radius: 20px; margin-bottom: 20px;}
+
+.ramkaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ramkka{background-color: rgba(255, 255, 255, 0.724); border-radius: 20px;}
+.ramkka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.scale {
+    transition: 0.5s; 
+    cursor: pointer;
+}
+.scale:hover {
+    transform: scale(1.1); 
+}
+
+.gray{background-color: rgba(183, 183, 183, 0.833); margin-top: 100px; padding: 30px; font-size: 18px;}
